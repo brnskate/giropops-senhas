@@ -13,4 +13,4 @@ spec:
       nodePort: 32500
       targetPort: 5000
       name: tcp-app
-  type: NodePort
+  type: LoadBalancer
